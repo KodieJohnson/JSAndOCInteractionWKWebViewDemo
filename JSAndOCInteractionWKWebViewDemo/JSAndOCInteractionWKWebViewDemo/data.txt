@@ -1,0 +1,9 @@
+//添加购物车的代码实现
+function addProductToCart(a,b,c){
+    window.webkit.messageHandlers.showMessage.postMessage([a,b,c])
+}
+
+//添加购物车并伴随动画的代码实现
+function addProductToCartWithMove(a,b,c){
+window.webkit.messageHandlers.showMessage.postMessage([a,b,c])
+}
